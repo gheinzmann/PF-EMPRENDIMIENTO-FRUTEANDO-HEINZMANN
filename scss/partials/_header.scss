@@ -1,0 +1,13 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+.titulo-principal{
+    @include flex (center, center, null);
+    @include dimensions (100%, null);
+    font-size: 2em;
+    font-weight: 1000; 
+    animation: backgroundOscillation 1s infinite;
+}
